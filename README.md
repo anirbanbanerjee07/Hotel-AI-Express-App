@@ -58,7 +58,14 @@ npm install express cors node-fetch dotenv
 ## 🖼️ Demo Screenshots
 ![Demo](https://github.com/user-attachments/assets/470c63df-b95d-40dd-9379-9229e1dbb776)
 
+## 👨‍💻 About
+    Built with ❤️ at Kolkata DevFest 2024 ✨
+    Author: Anirban Banerjee 🌟
+
+## 📫 Reach Me At:
+- [**GitHub**](https://github.com/anirbanbanerjee07)
+- [**LinkedIn**](https://www.linkedin.com/in/anirban-banerjee-b42b9907p/)
+- [**Email**](banerjeeanirban666@gmail.com)
 
 
-
-
+🎉 Hack. Build. Learn. Repeat. 🚀
