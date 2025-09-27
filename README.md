@@ -11,6 +11,22 @@ It uses Node.js + Express.js for the backend and a frontend (HTML, CSS, JS) wher
 - 🎨 UI: Responsive design with modern styling
 - 🤖 AI: Simulated Q&A engine (extendable with OpenAI or other models)
 
+## 📂 Project Structure
+Hotel-AI-Express-App/
+│
+├── server.js          # 🚀 Express backend (API endpoint `/api/ask`)
+├── package.json       # 📦 Project metadata & dependencies
+│
+├── public/            # 🌐 Frontend files
+│   ├── index.html     # 🖼️ Main UI (Ask the AI)
+│   ├── style.css      # 🎨 Styling for the app
+│   └── script.js      # ⚡ Handles fetch request to backend
+│
+├── node_modules/      # 📚 Auto-installed dependencies
+│
+└── README.md          # 📖 Documentation (you are here!)
+
+
 ## 🛠️ Installation & Setup
 
 **1. Clone the repository:**
@@ -57,6 +73,14 @@ npm install express cors node-fetch dotenv
 
 ## 🖼️ Demo Screenshots
 ![Demo](https://github.com/user-attachments/assets/470c63df-b95d-40dd-9379-9229e1dbb776)
+
+## 🟢 Last Contribution
+    The last update to this project was made by @anirbanbanerjee07 on `September 26`, 2025.
+
+## 📜 License
+```
+MIT License © 2025 Anirban Banerjee.
+```
 
 ## 👨‍💻 About
     Built with ❤️ at Kolkata DevFest 2024 ✨
