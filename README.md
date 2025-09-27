@@ -50,5 +50,15 @@ Get the AI’s response instantly ⚡
 - 🏢 Expand hotel management features
 - 📱 Make a mobile-friendly PWA version
 
-## 
+## 🔧 unique Setup
+```
+npm install express cors node-fetch dotenv
+```
+
+## 🖼️ Demo Screenshots
+![Demo](https://github.com/user-attachments/assets/470c63df-b95d-40dd-9379-9229e1dbb776)
+
+
+
+
 
