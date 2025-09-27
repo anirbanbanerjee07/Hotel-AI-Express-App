@@ -13,18 +13,18 @@ It uses Node.js + Express.js for the backend and a frontend (HTML, CSS, JS) wher
 
 ## 📂 Project Structure
 Hotel-AI-Express-App/
-│
-├── server.js          # 🚀 Express backend (API endpoint `/api/ask`)
-├── package.json       # 📦 Project metadata & dependencies
-│
-├── public/            # 🌐 Frontend files
-│   ├── index.html     # 🖼️ Main UI (Ask the AI)
-│   ├── style.css      # 🎨 Styling for the app
-│   └── script.js      # ⚡ Handles fetch request to backend
-│
-├── node_modules/      # 📚 Auto-installed dependencies
-│
-└── README.md          # 📖 Documentation (you are here!)
+- │
+- ├── server.js          # 🚀 Express backend (API endpoint `/api/ask`)
+- ├── package.json       # 📦 Project metadata & dependencies
+- │
+- ├── public/            # 🌐 Frontend files
+- │   ├── index.html     # 🖼️ Main UI (Ask the AI)
+- │   ├── style.css      # 🎨 Styling for the app
+- │   └── script.js      # ⚡ Handles fetch request to backend
+- │
+- ├── node_modules/      # 📚 Auto-installed dependencies
+- │
+- └── README.md          # 📖 Documentation (you are here!)
 
 
 ## 🛠️ Installation & Setup
