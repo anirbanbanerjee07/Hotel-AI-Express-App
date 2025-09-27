@@ -1,2 +1,2 @@
-# Hotel-AI-Express-App
-💬 Hotel AI Assistant — Ask questions &amp; get instant AI answers! 🤖✨ Built with Node.js, Express &amp; OpenAI API.
+# 🤖 Hotel AI Express App
+    ✨ I attended Kolkata DevFest 2024 on 22 December 🎉 — and that’s when this project was created 🚀
