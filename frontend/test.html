@@ -5,104 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ask the AI</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(to right, #6a11cb, #2575fc);
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
-
-    .container {
-      background: #fff;
-      border-radius: 15px;
-      padding: 30px 40px;
-      max-width: 600px;
-      width: 100%;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-
-    .container:hover {
-      transform: translateY(-5px);
-    }
-
-    h2 {
-      margin-bottom: 20px;
-      color: #333;
-    }
-
-    input {
-      width: 100%;
-      padding: 12px 15px;
-      font-size: 16px;
-      border: 2px solid #ddd;
-      border-radius: 10px;
-      outline: none;
-      transition: border-color 0.3s;
-    }
-
-    input:focus {
-      border-color: #6a11cb;
-    }
-
-    button {
-      margin-top: 15px;
-      padding: 12px 25px;
-      font-size: 16px;
-      border: none;
-      border-radius: 10px;
-      background: #6a11cb;
-      color: #fff;
-      cursor: pointer;
-      transition: background 0.3s, transform 0.2s;
-    }
-
-    button:hover {
-      background: #2575fc;
-      transform: scale(1.05);
-    }
-
-    pre {
-      text-align: left;
-      background: #f4f4f4;
-      padding: 15px;
-      margin-top: 25px;
-      border-radius: 10px;
-      max-height: 300px;
-      overflow-y: auto;
-      font-family: 'Courier New', monospace;
-      box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
-    }
-
-    .loading {
-      font-style: italic;
-      color: #6a11cb;
-      animation: blink 1s infinite;
-    }
-
-    @keyframes blink {
-      0%, 50%, 100% { opacity: 1; }
-      25%, 75% { opacity: 0; }
-    }
-
-    @media(max-width: 640px){
-      .container {
-        padding: 20px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -112,29 +15,6 @@
     <pre id="out"></pre>
   </div>
 
-  <script>
-    async function ask() {
-      const output = document.getElementById("out");
-      output.innerHTML = '<span class="loading">Loading...</span>';
-      const question = document.getElementById("q").value;
-
-      try {
-        const res = await fetch("http://localhost:3000/api/ask", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ question })
-        });
-
-        if (!res.ok) {
-          throw new Error(`Server error: ${res.status}`);
-        }
-
-        const data = await res.json();
-        output.textContent = data.answer || JSON.stringify(data, null, 2);
-      } catch (err) {
-        output.textContent = `Error: ${err.message}`;
-      }
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
