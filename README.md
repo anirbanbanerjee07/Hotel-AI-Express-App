@@ -11,7 +11,7 @@ It uses Node.js + Express.js for the backend and a frontend (HTML, CSS, JS) wher
 - 🎨 UI: Responsive design with modern styling
 - 🤖 AI: Simulated Q&A engine (extendable with OpenAI or other models)
 
-## 📂 Project Structure
+## 📂 Project Structuree re
 Hotel-AI-Express-App/
 - │
 - ├── server.js          # 🚀 Express backend (API endpoint `/api/ask`)
