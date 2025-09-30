@@ -8,10 +8,10 @@ It uses Node.js + Express.js for the backend and a frontend (HTML, CSS, JS) wher
 - 🌐 Frontend: HTML5, CSS3, JavaScript (Fetch API)
 - 🖥️ Backend: Node.js, Express.js
 - 🔗 API: Custom AI-like /api/ask endpoint
-- 🎨 UI: Responsive design with modern styling
+- 🎨 UI: Responsive design with modern stylin
 - 🤖 AI: Simulated Q&A engine (extendable with OpenAI or other models)
 
-## 📂 Project Structuree re
+## 📂 Project Structuree
 Hotel-AI-Express-App/
 - │
 - ├── server.js          # 🚀 Express backend (API endpoint `/api/ask`)
